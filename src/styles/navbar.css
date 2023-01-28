@@ -1,0 +1,22 @@
+.navbar{
+    height: 120px;
+    width: 100%;
+    position: relative;
+    background-color:  #0C011E;
+}
+/* .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+} */
+.menu a{
+    color: #e8d8f0;
+    text-transform: uppercase;
+}
+.menu a:hover , a:active , .navbar-nav .nav-link.active{
+    color: #4A3069;
+}
+.menu a[role='button'] {
+    margin-left: 46px;
+}

@@ -1,0 +1,18 @@
+
+.slideShow img {
+    width: 100%;
+    
+}
+
+.slideShow .text {
+    width: 793px;
+    height: 100px;
+    font-family: "Spaced";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    position: absolute;
+    top: 500px;
+    left: 125px;
+}

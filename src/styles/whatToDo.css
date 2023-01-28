@@ -1,0 +1,58 @@
+.whatToDo {
+    padding: 124px 173px;
+}
+.whatToDo .rightSec , .leftSec{
+    position: relative;
+}
+.whatToDo .leftSec div,
+.rightSec div {
+    border: 2px solid #362d79;
+    border-radius: 10px;
+    padding: 24px 32px;
+    margin: 40px 0;
+    font-size: 1.5rem;
+    position: relative;
+}
+.whatToDo .leftSec div{
+    width: max-content;
+}
+.whatToDo .rightSec .txt1{
+    width: 399px;
+    left: -50px;
+}
+.whatToDo .rightSec .txt2{
+    width: 370px;
+    left: 50px;
+}
+.whatToDo .rightSec .txt3{
+    width: 406px;
+    left: -50px;
+}
+.whatToDo .leftSec .txt1{
+    right: -95px;
+}
+.whatToDo .leftSec .txt2{
+    right: 90px;
+}
+
+.whatToDo .leftSec .txt3{
+    right: 145px;
+}
+.whatToDo .leftSec .txt4{
+    right: 30px;
+}
+.whatToDo .centertSec {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(
+        64.25% 64.25% at 50% 34%,
+        #8a2ab3 0%,
+        #6c168f 26.31%,
+        #3b0751 52.17%,
+        #060009 100%
+    );
+    border-radius: 50%;
+    font-family: "Spaced";
+    font-size: 2rem;
+    margin: 39px;
+}

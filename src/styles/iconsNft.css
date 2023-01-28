@@ -1,0 +1,20 @@
+.icons{
+    padding: 200px 0;
+}
+.icons .icon{
+    width: 100px;
+    height: 100px;
+    background-color: #6c79bf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icons .icon:hover{
+    background-color: #362D79;
+}
+.icons .topCol , .bottomCol{
+    gap: 26px;
+    margin-top: 1rem;
+}
