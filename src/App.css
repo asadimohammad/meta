@@ -95,7 +95,7 @@
     .navbar .menu{
         display: none;
     }
-    .slideShow img , .whatToDo , .portfolio{
+    .slideShow img , .whatToDo , .portfolio , .icons{
         width: 930px;
     }
 }
