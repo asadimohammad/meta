@@ -10,7 +10,7 @@ const Ul = styled.ul`
         margin-top: 26px;
     }
     
-    @media (max-width: 720px) {
+    @media (max-width: 920px) {
         z-index: 100;
         display: flex;
         flex-flow: row nowrap;

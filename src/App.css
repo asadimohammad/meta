@@ -67,22 +67,22 @@
     .whatToDo .leftSec div,
     .rightSec div {
         margin: 10px auto;
-        width: 90%;
+        width: 100%;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
     }
     .whatToDo .rightSec .txt1{
-        width: 90%;
+        width: 100%;
         left: 0;
     }
     .whatToDo .rightSec .txt2{
-        width: 90%;
+        width: 100%;
         left: 0;
     }
     .whatToDo .rightSec .txt3{
-        width: 90%;
+        width: 100%;
         left: 0;
     }
 }
@@ -92,10 +92,13 @@
         width: 100%;
         height: 96px;
     }
-}
-
-@media screen and (max-width : 790px) {
     .navbar .menu{
         display: none;
     }
+    .slideShow img , .whatToDo , .portfolio{
+        width: 930px;
+    }
+}
+
+@media screen and (max-width : 790px) {
 }
