@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../../../styles/navbar.css";
+import Burger from "../../Burger/Burger";
 import Brand from "../Brand/Brand";
 
 const Menu = () => {
@@ -34,6 +35,7 @@ const Menu = () => {
                         </Nav.Link>
                     </Nav>
                 </div>
+                <Burger/>
             </Container>
         </Navbar>
     );

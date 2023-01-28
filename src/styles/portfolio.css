@@ -21,6 +21,7 @@
     position: relative;
     bottom: -45px;
 }
+
 .companies div{
     width: 15rem;
     height: 15rem;
@@ -46,8 +47,8 @@
 }
 .companies .com2{
     top: 215px;
-    right: 430px;
-}
+    right: 430px; 
+} 
 .companies .com3{
     top: 350px;
     right: 658px;
@@ -64,3 +65,4 @@
     top: -30px;
     left: 300px;
 }
+

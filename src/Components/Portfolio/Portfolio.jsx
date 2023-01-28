@@ -15,7 +15,7 @@ const Portfolio = () => {
                     <span>PORTFOLIO</span>
                 </div>
             </div>
-            <div className="companies d-flex-center">
+            <div className="companies">
                 <div className="com6">
                     <img src={NFTCUSTOMIZER} alt="" />
                     <span>NFT CUSTOMIZER</span>

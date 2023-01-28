@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from './Components/Header/Navbar/Menu'
-import LandingPage from './LandingPage'
+import LandingPage from './Components/LandingPage'
 import './App.css'
 
 const App = () => {

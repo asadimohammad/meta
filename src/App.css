@@ -4,6 +4,98 @@
 }
 .d-flex-center {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1830px) {
+    .portfolio .ellip {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 30px;
+        background: linear-gradient(
+        #7e15aa 1.17%,
+        #4e0d6a 39.25%,
+        #110118 100%
+    );
+    }
+    .icons {
+        padding:0 0 100px 0;
+    }
+    .portfolio .ellip span{
+        bottom: 0;
+    }
+    .companies {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .companies div {
+        flex-direction: column;
+        position: static;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .whatToDo {
+        position: relative;
+        display: block;
+    }
+    .whatToDo .centertSec {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(
+            #8a2ab3 0%,
+            #6c168f 26.31%,
+            #3b0751 52.17%,
+            #060009 100%
+        );
+        border-radius: 0;
+    }
+    
+    .whatToDo .leftSec div,
+    .rightSec div {
+        margin: 10px auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .whatToDo .rightSec .txt1{
+        width: 90%;
+        left: 0;
+    }
+    .whatToDo .rightSec .txt2{
+        width: 90%;
+        left: 0;
+    }
+    .whatToDo .rightSec .txt3{
+        width: 90%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width : 920px){
+    .portfolio .ellip {
+        width: 100%;
+        height: 96px;
+    }
+}
+
+@media screen and (max-width : 790px) {
+    .navbar .menu{
+        display: none;
+    }
 }
