@@ -1,8 +1,9 @@
 .navbar{
     height: 120px;
-    width: 100%;
+    /* width: 100%; */
     position: relative;
-    background-color:  #0C011E;
+    background-color: #1C0642;
+    padding: 0 120px;
 }
 /* .navbar .container{
     display: flex;

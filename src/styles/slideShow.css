@@ -1,18 +1,32 @@
-
+.slideShow{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .slideShow img {
     width: 100%;
     
 }
 
 .slideShow .text {
-    width: 793px;
-    height: 100px;
     font-family: "Spaced";
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
     line-height: 72px;
     position: absolute;
     top: 500px;
-    left: 125px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.slideShow .text .txt1{
+    font-size: 3rem;
+}
+.slideShow .text .txt2{
+    font-size: 4.5rem;
+}
+.slideShow .text .txt3{
+    font-size: 4.5rem;
+}
+.slideShow .text .txt4{
+    font-size: 3rem;
 }

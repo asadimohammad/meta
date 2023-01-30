@@ -1,14 +1,17 @@
 import React from "react";
-import '.././../styles/whatToDo.css'
+import ".././../styles/whatToDo.css";
 
 const WhatToDo = () => {
     return (
-        <div className="whatToDo d-flex-center" id="whatWeDo">
+        <div className="whatToDo d-flex-center container-fluid " id="whatWeDo">
             <div className="leftSec">
                 <div className="txt1">3D NFT Rooms</div>
                 <div className="txt2">Procedural Generation</div>
                 <div className="txt3">3D NFT Collections</div>
-                <div className="txt4">Virtual Reality Platforms</div>
+                <div className="txt4">
+                    Get Your Metaverse For Browser or Standalone Project with
+                    Unreal Engine
+                </div>
             </div>
             <div className="centertSec d-flex-center">
                 <span>WHAT WE DO ?</span>
@@ -18,10 +21,9 @@ const WhatToDo = () => {
                     Compatible With All Available Blockchains ( Ethereum,
                     Solana, Polygon,.. )
                 </div>
-                <div className="txt2">Technology And Art Solution For The Metaverse</div>
-                <div className="txt3">
-                    Get Your Metaverse For Browser or Standalone Project with
-                    Unreal Engine
+                <div className="txt3">Virtual Reality Platforms</div>
+                <div className="txt2">
+                    Technology And Art Solution For The Metaverse
                 </div>
             </div>
         </div>

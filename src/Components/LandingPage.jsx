@@ -1,4 +1,6 @@
 import React from 'react'
+import AboutUs from './AboutUs/AboutUs'
+import Footer from './Footer/Footer'
 import Menu from './Header/Navbar/Menu'
 import IconsNft from './IconsNft/IconsNft'
 import Portfolio from './Portfolio/Portfolio'
@@ -13,6 +15,8 @@ const LandingPage = () => {
         <WhatToDo/>
         <IconsNft/>
         <Portfolio/>
+        <AboutUs/>
+        <Footer/>
     </>
   )
 }

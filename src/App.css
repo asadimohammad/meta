@@ -8,8 +8,11 @@
     justify-content: center;
     align-items: center;
 }
-
-@media screen and (max-width: 1830px) {
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* @media screen and (max-width: 1830px) {
     .portfolio .ellip {
         width: 100%;
         height: 100px;
@@ -41,9 +44,9 @@
         right: 0;
         bottom: 0;
     }
-}
+} */
 
-@media screen and (max-width: 1430px) {
+/* @media screen and (max-width: 1430px) {
     .whatToDo {
         position: relative;
         display: block;
@@ -85,20 +88,67 @@
         width: 100%;
         left: 0;
     }
-}
+} */
 
-@media screen and (max-width : 920px){
+@media screen and (max-width: 920px) {
     .portfolio .ellip {
         width: 100%;
         height: 96px;
     }
-    .navbar .menu{
+    .navbar .menu {
         display: none;
     }
-    .slideShow img , .whatToDo , .portfolio , .icons{
+    .slideShow img{
+        width: 100%;
+    }
+    .whatToDo,
+    .portfolio,
+    .icons {
         width: 930px;
     }
 }
 
-@media screen and (max-width : 790px) {
+@media screen and (max-width: 1300px) {
+    .whatToDo {
+        flex-direction: column;
+    }
+    .centertSec {
+        position: absolute;
+        top: 0;
+    }
+    /*************** leftSec *****************************/
+    .whatToDo .leftSec .txt1 {
+        right: -336px !important;
+        top: 186px !important;
+    }
+    .whatToDo .leftSec .txt2 {
+        right: 154px !important;
+        top: 144px !important;
+    }
+
+    .whatToDo .leftSec .txt3 {
+        right: -300px !important;
+        top: 154px !important;
+    }
+    .whatToDo .leftSec .txt4 {
+        width: 406px;
+        right: 243px !important;
+        top: 126px !important;
+    }
+    /*************** rightSec *****************************/
+
+    .whatToDo .rightSec .txt1 {
+        width: 399px;
+        left: 197px !important;
+        top: 77px !important;
+    }
+    .whatToDo .rightSec .txt2 {
+        width: 370px;
+        left: 209px !important;
+        top: 26px !important;
+    }
+    .whatToDo .rightSec .txt3 {
+        left: -247px !important;
+        top: 58px !important;
+    }
 }

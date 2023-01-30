@@ -1,0 +1,12 @@
+.footer{
+    padding: 64px 120px;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+}
+.copyright{
+    margin-top: 51px;
+}

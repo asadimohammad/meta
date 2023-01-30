@@ -4,13 +4,16 @@ import '../../styles/slideShow.css'
 
 const Slideshow = () => {
   return (
-    <div className='slideShow'>
+    <div className='slideShow container-fluid'>
       <div className='img'>
         <img src={moon} alt="moon" />
         <div className='overlay'></div>
       </div>
         <div className="text">
-          <span>WE ARE BUILDING NFT PROJECTS FOT YOU</span>
+          <span className='txt1'>We Build</span>
+          <span className='txt2'>Metaverse And</span>
+          <span className='txt3'>Blockchain Games</span>
+          <span className='txt4'>For You</span>
         </div>
     </div>
   )

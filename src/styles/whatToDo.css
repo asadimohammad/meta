@@ -1,5 +1,7 @@
 .whatToDo {
-    padding: 124px 173px;
+    position: relative;
+    padding: 124px 0;
+    background-image: linear-gradient(169.67deg, #130032 3.02%, #1F0745 27.4%, #0D0120 61.34%, #1F0336 83.68%, #260639 100%);
 }
 .whatToDo .rightSec , .leftSec{
     position: relative;
@@ -12,34 +14,41 @@
     margin: 40px 0;
     font-size: 1.5rem;
     position: relative;
+    background-color: #0C011E;
 }
 .whatToDo .leftSec div{
     width: max-content;
 }
 .whatToDo .rightSec .txt1{
     width: 399px;
-    left: -50px;
+    left: 2px;
 }
 .whatToDo .rightSec .txt2{
     width: 370px;
-    left: 50px;
+    left: -151px;
+    top: 113px;
 }
 .whatToDo .rightSec .txt3{
-    width: 406px;
-    left: -50px;
+    left: 3px;
+    top: 78px;
 }
 .whatToDo .leftSec .txt1{
-    right: -95px;
+    right: -448px;
+    top: -85px;
 }
 .whatToDo .leftSec .txt2{
-    right: 90px;
+    right: -58px;
+    top: -62px;
 }
 
 .whatToDo .leftSec .txt3{
-    right: 145px;
+    right: -16px;
+    top: -5px;
 }
 .whatToDo .leftSec .txt4{
-    right: 30px;
+     width: 406px;
+     right: -9px;
+     top: 71px;
 }
 .whatToDo .centertSec {
     

@@ -1,14 +1,24 @@
+.port-part{
+    overflow: hidden;
+}
 .portfolio {
     position: relative;
+    background: linear-gradient(
+        110.25deg,
+        #130032 5.75%,
+        #0e0121 37.15%,
+        #1f0336 68.27%,
+        #260639 80.93%
+    );
+    height: 673px;
 }
 .portfolio .ellip {
-    width: 600px;
-    height: 600px;
-    /* left: 1002px; */
-    /* top: 3009.43px; */
+    width: 400px;
+    height: 200px;
+    border-radius: 0 0 12rem 12rem;
     position: relative;
     background: radial-gradient(
-        50% 50% at 50% 0%,
+        50% 84% at 50% 0%,
         #7e15aa 1.17%,
         #4e0d6a 39.25%,
         #110118 100%
@@ -17,52 +27,38 @@
     font-size: 3rem;
     text-align: center;
 }
-.portfolio .ellip span{
+.portfolio .ellip span {
     position: relative;
     bottom: -45px;
 }
 
-.companies div{
+.companies {
+    margin-top: 60px;
+    gap: 240px;
+}
+.companies div {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    background-color: #14042F;
-    border: 2px solid #362D79;
+    background-color: #14042f;
+    border: 2px solid #362d79;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     gap: 20px;
 }
-.companies img{
+.companies img {
     width: 100px;
 }
-.companies .com2 img{
-    width: 80px;
-}
-.companies .com1{
+
+/* .companies .com1 {
     top: -30px;
     right: 300px;
 }
-.companies .com2{
-    top: 215px;
-    right: 430px; 
-} 
-.companies .com3{
-    top: 350px;
-    right: 658px;
-}
-.companies .com4{
-    top: 350px;
-    left: 677px;
-}
-.companies .com5{
-    top: 215px;
-    left: 430px;
-}
-.companies .com6{
+
+.companies .com2 {
     top: -30px;
     left: 300px;
-}
-
+} */

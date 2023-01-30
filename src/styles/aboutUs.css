@@ -1,0 +1,23 @@
+.aboutUs {
+    height: 474px;
+    background: linear-gradient(
+        126.7deg,
+        #130032 21.35%,
+        #0e0121 49.44%,
+        #1f0336 77.27%,
+        #260639 88.59%
+    );
+    text-align: center;
+    padding: 100px 0;
+}
+.aboutUs .title{
+    font-size: 3rem;
+    font-family: "Spaced";
+}
+.aboutUs .txt{
+    margin-top: 124px;
+    font-size: 1.5rem;
+}
+.aboutUs .txt .email{
+    margin-top: 2rem;
+}

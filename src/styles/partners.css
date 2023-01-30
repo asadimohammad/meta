@@ -1,0 +1,63 @@
+.partners{
+    height: 491px;
+    font-family: "Spaced";
+    text-align: center;
+    padding-top: 69px;
+    position: relative;
+}
+.partners .title{
+    font-size: 3rem;
+}
+.partners .img img{
+    width: 643px;
+    margin-top: 132px;
+}
+.circles .right{
+    right: 0;
+    position: relative;
+}
+.circles .left{
+    left: 0;
+    position: relative;
+}
+.partners .circles div{
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid #530B70;
+}
+.partners .circles .circle1{
+    width: 433px;
+    height: 433px;
+}
+.partners .circles .circle2{
+    width: 214px;
+    height: 214px;
+}
+.partners .circles .circle3{
+    width: 357px;
+    height: 357px;
+}
+.partners .circles.right .circle1{
+    right: -163px;
+    top: -280px;
+}
+.partners .circles.right .circle2{
+    right: 51px;
+    top: 58px;
+ }
+ .partners .circles.right .circle3{
+    top: 102px;
+    right: -214px;
+ }
+ .partners .circles.left .circle1{
+    left: -163px;
+    top: -280px;
+}
+.partners .circles.left .circle2{
+    left: -103px;
+    top: 194px;
+ }
+ .partners .circles.left .circle3{
+    top: -45px;
+    left: -47px;
+ }
