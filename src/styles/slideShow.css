@@ -1,6 +1,7 @@
 .slideShow{
     padding-left: 0px;
     padding-right: 0px;
+    width: 100vw;
 }
 .slideShow img {
     width: 100%;

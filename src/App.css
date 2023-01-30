@@ -98,15 +98,14 @@
     .navbar .menu {
         display: none;
     }
-    .slideShow img{
-        width: 100%;
-    }
+
     .navbar ,
-    .slideShow img ,
+    .slideShow .img img ,
     .whatToDo,
     .portfolio,
     .footer ,
     .port-part ,
+    .aboutUs ,
     .icons {
         width: 930px;
     }
