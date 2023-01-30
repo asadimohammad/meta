@@ -20,14 +20,16 @@
     margin-left: 100px;
 }
 .slideShow .text .txt1{
-    font-size: 3rem;
+    font-size: calc(1.3rem + 2vw);
 }
 .slideShow .text .txt2{
-    font-size: 4.5rem;
+    font-size: calc(3rem + 2vw);
+    width: max-content;
 }
 .slideShow .text .txt3{
-    font-size: 4.5rem;
+    font-size: calc(3rem + 2vw);
+    width: max-content;
 }
 .slideShow .text .txt4{
-    font-size: 3rem;
+    font-size: calc(1.3rem + 2vw);
 }
