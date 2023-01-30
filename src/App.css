@@ -101,8 +101,12 @@
     .slideShow img{
         width: 100%;
     }
+    .navbar ,
+    .slideShow img ,
     .whatToDo,
     .portfolio,
+    .footer ,
+    .port-part ,
     .icons {
         width: 930px;
     }
