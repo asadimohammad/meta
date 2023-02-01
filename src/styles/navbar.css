@@ -1,16 +1,16 @@
-.navbar{
+/* .navbar{
     height: 120px;
     position: relative;
     background-color: #1C0642;
     padding: 0 120px;
-}
+} */
 /* .navbar .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 } */
-.menu a{
+/* .menu a{
     color: #e8d8f0;
     text-transform: uppercase;
 }
@@ -19,4 +19,4 @@
 }
 .menu a[role='button'] {
     margin-left: 46px;
-}
+} */

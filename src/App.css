@@ -12,83 +12,6 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-/* @media screen and (max-width: 1830px) {
-    .portfolio .ellip {
-        width: 100%;
-        height: 100px;
-        margin-bottom: 30px;
-        background: linear-gradient(
-        #7e15aa 1.17%,
-        #4e0d6a 39.25%,
-        #110118 100%
-    );
-    }
-    .icons {
-        padding:0 0 100px 0;
-    }
-    .portfolio .ellip span{
-        bottom: 0;
-    }
-    .companies {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-    .companies div {
-        flex-direction: column;
-        position: static;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
-} */
-
-/* @media screen and (max-width: 1430px) {
-    .whatToDo {
-        position: relative;
-        display: block;
-    }
-    .whatToDo .centertSec {
-        margin: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100px;
-        background: linear-gradient(
-            #8a2ab3 0%,
-            #6c168f 26.31%,
-            #3b0751 52.17%,
-            #060009 100%
-        );
-        border-radius: 0;
-    }
-    
-    .whatToDo .leftSec div,
-    .rightSec div {
-        margin: 10px auto;
-        width: 100%;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
-    .whatToDo .rightSec .txt1{
-        width: 100%;
-        left: 0;
-    }
-    .whatToDo .rightSec .txt2{
-        width: 100%;
-        left: 0;
-    }
-    .whatToDo .rightSec .txt3{
-        width: 100%;
-        left: 0;
-    }
-} */
 
 @media screen and (max-width: 920px) {
     .portfolio .ellip {
@@ -97,17 +20,6 @@
     }
     .navbar .menu {
         display: none;
-    }
-
-    .navbar ,
-    .slideShow .img img ,
-    .whatToDo,
-    .portfolio,
-    .footer ,
-    .port-part ,
-    .aboutUs ,
-    .icons {
-        width: 930px;
     }
 }
 
@@ -153,5 +65,115 @@
     .whatToDo .rightSec .txt3 {
         left: -247px !important;
         top: 58px !important;
+    }
+}
+
+@media screen and (max-width: 920) {
+    /*************** leftSec *****************************/
+    .whatToDo .leftSec .txt1 {
+        right: -300px !important;
+        top: 196px !important;
+    }
+    .whatToDo .leftSec .txt2 {
+        right: 114px !important;
+        top: 176px !important;
+    }
+
+    .whatToDo .leftSec .txt3 {
+        right: -260px !important;
+    }
+    .whatToDo .leftSec .txt4 {
+        right: 406px !important;
+    }
+    /*************** rightSec *****************************/
+
+    .whatToDo .rightSec .txt1 {
+        left: 135px !important;
+        top: 97px !important;
+    }
+    .whatToDo .rightSec .txt2 {
+        width: 370px;
+        left: -167px !important;
+        top: 93px !important;
+    }
+    .whatToDo .rightSec .txt3 {
+        left: 169px !important;
+        top: 77px !important;
+    }
+}
+@media screen and (max-width: 970px) {
+    .slideShow .img .text {
+        top: 234px;
+    }
+}
+@media screen and (max-width : 830px) {
+     /*************** leftSec *****************************/
+     .whatToDo .leftSec .txt1 {
+        right: -267px !important;
+        top: 196px !important;
+    }
+    .whatToDo .leftSec .txt2 {
+        right: 59px !important;
+        top: 159px !important;
+    }
+
+    .whatToDo .leftSec .txt3 {
+        right: -225px !important;
+        top: 128px !important;
+    }
+    .whatToDo .leftSec .txt4 {
+        right: 62px !important;
+        top: 106px !important;
+    }
+    /*************** rightSec *****************************/
+
+    .whatToDo .rightSec .txt1 {
+        left: 88px !important;
+        top: 44px !important;
+    }
+    .whatToDo .rightSec .txt2 {
+        left: 117px !important;
+        top: -2px !important;
+    }
+    .whatToDo .rightSec .txt3 {
+        left: -63px !important;
+        top: 20px !important;
+    }
+}
+@media screen and (max-width : 600px) {
+    .whatToDo .centertSec{
+        width: 10.75rem !important;
+        height: 10.75rem !important;
+        font-size: 1.3rem !important;
+        margin: 39px 0 0 0 !important;
+    }
+    .whatToDo .rightSec{
+        margin-top: 48px;
+    }
+    .whatToDo .leftSec{
+        margin-top: -85px;
+    }
+    .whatToDo .leftSec div ,
+    .whatToDo .rightSec div
+    {
+        position: static;
+        top: 50px;
+        right: 0;
+        left: 0;
+        margin: 40px auto !important;
+        width: 90% !important;
+    }
+
+}
+@media screen and (max-width: 670px) {
+    .slideShow .img .text {
+        top: 99px;
+        line-height: 50px;
+        margin-left: 37px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .slideShow .img .text {
+        top: 105px;
     }
 }

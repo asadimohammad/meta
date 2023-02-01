@@ -2,17 +2,18 @@
     padding-left: 0px;
     padding-right: 0px;
     width: 100vw;
+    /* height: 799px; */
 }
 .slideShow img {
     width: 100%;
-    
+    position: relative;
 }
 
 .slideShow .text {
     font-family: "Spaced";
     font-style: normal;
     font-weight: 400;
-    line-height: 72px;
+    line-height: 80px;
     position: absolute;
     top: 500px;
     display: flex;
@@ -20,16 +21,16 @@
     margin-left: 100px;
 }
 .slideShow .text .txt1{
-    font-size: calc(1.3rem + 2vw);
+    font-size: calc(1rem + 2vw);
 }
 .slideShow .text .txt2{
-    font-size: calc(3rem + 2vw);
-    width: max-content;
+    font-size: calc(2rem + 2vw);
+    width: fit-content;
 }
 .slideShow .text .txt3{
-    font-size: calc(3rem + 2vw);
-    width: max-content;
+    font-size: calc(2rem + 2vw);
+    width: fit-content;
 }
 .slideShow .text .txt4{
-    font-size: calc(1.3rem + 2vw);
+    font-size: calc(1rem + 2vw);
 }
