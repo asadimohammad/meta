@@ -5,9 +5,12 @@
 .footer ul {
     list-style: none;
     display: flex;
-    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
     flex-wrap: wrap;
 }
 .copyright{
     margin-top: 51px;
+    text-align: center;
 }

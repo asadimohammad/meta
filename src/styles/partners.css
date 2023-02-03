@@ -8,8 +8,11 @@
 .partners .title{
     font-size: 3rem;
 }
+.partners .img {
+    width: 100%;
+}
 .partners .img img{
-    /* width: 643px; */
+    width: 643px;
     margin-top: 132px;
 }
 .circles .right{

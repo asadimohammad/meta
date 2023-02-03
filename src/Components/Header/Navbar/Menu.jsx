@@ -20,7 +20,7 @@ const Menu = () => {
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#whatWeDo">What we do?</Nav.Link>
                             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                            <Nav.Link href="aboutUs">About Us</Nav.Link>
+                            <Nav.Link href="#aboutUs">About Us</Nav.Link>
                             <Nav.Link href="">
                                 <svg
                                     width="28"

@@ -12,7 +12,9 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-
+a{
+    color: #f7f7f7 !important;
+}
 @media screen and (max-width: 920px) {
     .portfolio .ellip {
         width: 100%;
@@ -170,6 +172,9 @@
         top: 99px;
         line-height: 50px;
         margin-left: 37px;
+    }
+    .partners .img img{
+        width: 80% !important;
     }
 }
 @media screen and (max-width: 380px) {
