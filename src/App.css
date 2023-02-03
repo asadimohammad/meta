@@ -165,6 +165,16 @@ a{
         margin: 40px auto !important;
         width: 90% !important;
     }
+    .companies{
+        gap: 40px !important;
+    }
+    .companies div {
+        width: 8rem !important;
+        height: 8rem !important;
+    }
+    .portfolio{
+        height: 474px !important;
+    }
 
 }
 @media screen and (max-width: 670px) {
